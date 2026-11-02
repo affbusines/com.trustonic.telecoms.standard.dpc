@@ -1,0 +1,127 @@
+{
+  "ic_help": [
+    {
+      "path": "assets/ic_help.svg"
+    }
+  ],
+  "ic_phone": [
+    {
+      "path": "assets/ic_phone.svg"
+    }
+  ],
+  "ic_key": [
+    {
+      "path": "assets/ic_key.svg"
+    }
+  ],
+  "ic_location": [
+    {
+      "path": "assets/ic_location.svg"
+    }
+  ],
+  "ic_dialer": [
+    {
+      "path": "assets/ic_dialler.svg"
+    }
+  ],
+  "ic_settings": [
+    {
+      "path": "assets/ic_settings.svg"
+    }
+  ],
+  "ic_android": [
+    {
+      "path": "assets/ic_android.svg"
+    }
+  ],
+  "ic_arrow_right": [
+    {
+      "path": "assets/ic_arrow_right.svg"
+    }
+  ],
+  "ic_info": [
+    {
+      "path": "assets/ic_info.svg"
+    }
+  ],
+  "ic_message": [
+    {
+      "path": "assets/ic_message.svg"
+    }
+  ],
+  "ic_sim_card": [
+    {
+      "path": "assets/ic_sim_card.svg"
+    }
+  ],
+  "ic_alarm_exclamation": [
+    {
+      "path": "assets/ic_alarm_exclamation.svg"
+    }
+  ],
+  "ic_exclamation_circle": [
+    {
+      "path": "assets/ic_exclamation_circle.svg"
+    }
+  ],
+  "ic_mail": [
+    {
+      "path": "assets/ic_mail.svg"
+    }
+  ],
+  "ic_help_faqs": [
+    {
+      "path": "assets/ic_faqs.svg"
+    }
+  ],
+  "ic_help_contact_us": [
+    {
+      "path": "assets/ic_contact.svg"
+    }
+  ],
+  "ic_help_pin_unlock": [
+    {
+      "path": "assets/ic_pin_unlock.svg"
+    }
+  ],
+  "ic_help_refresh": [
+    {
+      "path": "assets/ic_refresh.svg"
+    }
+  ],
+  "ic_help_feedback": [
+    {
+      "path": "assets/ic_feedback.svg"
+    }
+  ],
+  "ic_help_about": [
+    {
+      "path": "assets/ic_info.svg"
+    }
+  ],
+  "ic_contact_call": [
+    {
+      "path": "assets/ic_phone.svg"
+    }
+  ],
+  "ic_contact_mail": [
+    {
+      "path": "assets/ic_mail.svg"
+    }
+  ],
+  "ic_contact_web": [
+    {
+      "path": "assets/ic_web.svg"
+    }
+  ],
+  "ic_pin_unlock_call": [
+    {
+      "path": "assets/ic_phone.svg"
+    }
+  ],
+  "ic_pin_unlock_mail": [
+    {
+      "path": "assets/ic_mail.svg"
+    }
+  ]
+}

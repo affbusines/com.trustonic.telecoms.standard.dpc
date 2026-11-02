@@ -1,0 +1,286 @@
+<manifest attr_1310740="exported" attr_4294967295="162" 2.18.2-standard-dpc-release="162" attr_4294967295="162" 17="-1" com.trustonic.telecoms.standard.dpc="-1" attr_4294967295="-1">
+  <uses-sdk attr_1310740="icon" attr_4294967295="162">
+  </uses-sdk>
+  <uses-permission attr_1310740="label">
+  </uses-permission>
+  <uses-permission attr_1310740="label">
+  </uses-permission>
+  <uses-permission attr_1310740="label">
+  </uses-permission>
+  <meta-data attr_1310740="icon" android.content.APP_RESTRICTIONS="162">
+  </meta-data>
+  <uses-permission attr_1310740="label">
+  </uses-permission>
+  <uses-feature attr_1310740="icon" com.motorola.paks.motosafe_kiosk_role="162">
+  </uses-feature>
+  <uses-permission attr_1310740="label">
+  </uses-permission>
+  <permission attr_1310740="icon" com.trustonic.telecoms.permission.PROVISION="162">
+  </permission>
+  <uses-permission attr_1310740="label">
+  </uses-permission>
+  <uses-permission attr_1310740="label">
+  </uses-permission>
+  <uses-permission attr_1310740="label">
+  </uses-permission>
+  <uses-permission attr_1310740="label">
+  </uses-permission>
+  <uses-permission attr_1310740="label">
+  </uses-permission>
+  <uses-permission attr_1310740="label">
+  </uses-permission>
+  <uses-permission attr_1310740="label">
+  </uses-permission>
+  <uses-permission attr_1310740="label">
+  </uses-permission>
+  <permission attr_1310740="icon" com.trustonic.telecoms.standard.dpc.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION="162">
+  </permission>
+  <uses-permission attr_1310740="label">
+  </uses-permission>
+  <application attr_1310740="grantUriPermissions" attr_4294967295="162" attr_4294967295="162" attr_4294967295="162" com.trustonic.telecoms.client.ClientServiceApplication="162" attr_4294967295="162" attr_4294967295="162" attr_4294967295="162" attr_4294967295="162" attr_4294967295="162" androidx.core.app.CoreComponentFactory="162">
+    <activity attr_1310740="name" com.trustonic.telecoms.client.feature.provisioning.views.ProvisioningModeActivity="162" android.permission.BIND_DEVICE_ADMIN="162">
+      <intent-filter>
+        <action attr_1310740="label">
+        </action>
+        <category attr_1310740="label">
+        </category>
+      </intent-filter>
+    </activity>
+    <activity attr_1310740="protectionLevel" com.trustonic.telecoms.client.feature.provisioning.views.ProvisioningActivity="162" attr_4294967295="162" attr_4294967295="162" attr_4294967295="162">
+      <intent-filter>
+        <action attr_1310740="label">
+        </action>
+        <action attr_1310740="label">
+        </action>
+        <category attr_1310740="label">
+        </category>
+        <category attr_1310740="label">
+        </category>
+        <action attr_1310740="label">
+        </action>
+        <category attr_1310740="label">
+        </category>
+      </intent-filter>
+    </activity>
+    <activity attr_1310740="exported" attr_4294967295="162" com.trustonic.telecoms.client.MainActivity="162" attr_4294967295="162" attr_4294967295="162" attr_4294967295="162" attr_4294967295="162">
+    </activity>
+    <activity-alias attr_1310740="exported" attr_4294967295="162" attr_4294967295="162" com.trustonic.telecoms.Trustonic="162" attr_4294967295="162" attr_4294967295="162" com.trustonic.telecoms.client.MainActivity="162">
+      <intent-filter>
+        <category attr_1310740="label">
+        </category>
+        <action attr_1310740="label">
+        </action>
+        <category attr_1310740="label">
+        </category>
+      </intent-filter>
+    </activity-alias>
+    <activity-alias attr_1310740="exported" attr_4294967295="162" attr_4294967295="162" com.trustonic.telecoms.Cricket="162" attr_4294967295="162" attr_4294967295="162" com.trustonic.telecoms.client.MainActivity="162">
+      <intent-filter>
+        <category attr_1310740="label">
+        </category>
+        <action attr_1310740="label">
+        </action>
+        <category attr_1310740="label">
+        </category>
+      </intent-filter>
+    </activity-alias>
+    <activity-alias attr_1310740="exported" attr_4294967295="162" attr_4294967295="162" com.trustonic.telecoms.ATT="162" attr_4294967295="162" attr_4294967295="162" com.trustonic.telecoms.client.MainActivity="162">
+      <intent-filter>
+        <category attr_1310740="label">
+        </category>
+        <action attr_1310740="label">
+        </action>
+        <category attr_1310740="label">
+        </category>
+      </intent-filter>
+    </activity-alias>
+    <receiver attr_1310740="icon" com.trustonic.telecoms.client.receivers.BootCompleteReceiver="162">
+      <intent-filter attr_1310740="label">
+        <action attr_1310740="label">
+        </action>
+      </intent-filter>
+    </receiver>
+    <receiver attr_1310740="name" BootReceiver="162" com.trustonic.telecoms.client.receivers.AppUpdatedReceiver="162">
+      <intent-filter attr_1310740="label">
+        <action attr_1310740="label">
+        </action>
+      </intent-filter>
+    </receiver>
+    <provider attr_1310740="name" androidx.startup.InitializationProvider="162" attr_4294967295="162">
+      <meta-data attr_1310740="icon" androidx.emoji2.text.EmojiCompatInitializer="162">
+      </meta-data>
+      <meta-data attr_1310740="icon" androidx.lifecycle.ProcessLifecycleInitializer="162">
+      </meta-data>
+      <meta-data attr_1310740="icon" okhttp3.internal.platform.PlatformInitializer="162">
+      </meta-data>
+    </provider>
+    <provider attr_1310740="permission" androidx.core.content.FileProvider="162" attr_4294967295="162" com.trustonic.telecoms.standard.dpc.fileprovider="162">
+      <meta-data attr_1310740="icon" android.support.FILE_PROVIDER_PATHS="162">
+      </meta-data>
+    </provider>
+    <receiver attr_1310740="permission" com.trustonic.telecoms.client.feature.provisioning.entrypoint.SetupProvisionCompleteReceiver="162" com.trustonic.telecoms.permission.PROVISION="162" attr_4294967295="162">
+      <intent-filter>
+        <action attr_1310740="label">
+        </action>
+      </intent-filter>
+    </receiver>
+    <receiver attr_1310740="name" com.trustonic.alps.alpsclientservice.provisioning.services.DPCAdminReceiver="162" android.permission.BIND_DEVICE_ADMIN="162">
+      <meta-data attr_1310740="icon" android.app.device_admin="162">
+      </meta-data>
+      <intent-filter>
+        <action attr_1310740="label">
+        </action>
+        <action attr_1310740="label">
+        </action>
+        <action attr_1310740="label">
+        </action>
+        <action attr_1310740="label">
+        </action>
+        <action attr_1310740="label">
+        </action>
+      </intent-filter>
+    </receiver>
+    <activity attr_1310740="permission" attr_4294967295="@0x000000a2" com.trustonic.telecoms.client.feature.service.message.ServiceProviderActivity="162" attr_4294967295="162">
+    </activity>
+    <receiver attr_1310740="name" SimStateChangeReceiver="162" com.trustonic.telecoms.client.feature.policy.simcontrol.receiver.SimStateChangeReceiver="162">
+      <intent-filter>
+        <action attr_1310740="label">
+        </action>
+      </intent-filter>
+    </receiver>
+    <receiver attr_1310740="icon" com.trustonic.telecoms.client.feature.datetime.changeprotection.TimeChangeReceiver="162">
+      <intent-filter>
+        <action attr_1310740="label">
+        </action>
+      </intent-filter>
+    </receiver>
+    <service attr_1310740="permission" com.trustonic.telecoms.entrypoint.carrier.CallScreeningService="162" android.permission.BIND_SCREENING_SERVICE="162" attr_4294967295="162">
+      <intent-filter>
+        <action attr_1310740="label">
+        </action>
+      </intent-filter>
+    </service>
+    <service attr_1310740="permission" attr_4294967295="162" com.trustonic.telecoms.client.feature.call.restriction.service.DeviceCarrierService="162" android.permission.BIND_CARRIER_SERVICES="162">
+      <intent-filter>
+        <action attr_1310740="label">
+        </action>
+      </intent-filter>
+      <meta-data attr_1310740="icon" android.service.carrier.LONG_LIVED_BINDING="162">
+      </meta-data>
+    </service>
+    <service attr_1310740="protectionLevel" com.trustonic.telecoms.entrypoint.carrier.CallRedirectionService="162" android.permission.BIND_CALL_REDIRECTION_SERVICE="162" attr_4294967295="162" attr_4294967295="162">
+      <intent-filter>
+        <action attr_1310740="label">
+        </action>
+      </intent-filter>
+    </service>
+    <service attr_1310740="icon" com.trustonic.telecoms.client.feature.push.notification.service.DpcTelecomMessagingService="162">
+      <meta-data attr_1310740="icon" com.google.firebase.messaging.default_notification_channel_id="162">
+      </meta-data>
+      <intent-filter>
+        <action attr_1310740="label">
+        </action>
+      </intent-filter>
+    </service>
+    <service attr_1310740="icon" com.trustonic.telecoms.client.feature.push.notification.service.TelecomMessagingService="162">
+      <meta-data attr_1310740="icon" com.google.firebase.messaging.default_notification_channel_id="162">
+      </meta-data>
+      <intent-filter>
+        <action attr_1310740="label">
+        </action>
+      </intent-filter>
+    </service>
+    <service attr_1310740="protectionLevel" androidx.work.impl.background.systemjob.SystemJobService="162" android.permission.BIND_JOB_SERVICE="162" attr_4294967295="162" attr_4294967295="162">
+    </service>
+    <service attr_1310740="permission" androidx.work.impl.foreground.SystemForegroundService="162" attr_4294967295="162" attr_4294967295="162">
+    </service>
+    <receiver attr_1310740="permission" androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver="162" attr_4294967295="162" attr_4294967295="162">
+    </receiver>
+    <receiver attr_1310740="permission" androidx.work.impl.background.systemalarm.RescheduleReceiver="162" attr_4294967295="162" attr_4294967295="162">
+      <intent-filter>
+        <action attr_1310740="label">
+        </action>
+      </intent-filter>
+    </receiver>
+    <receiver attr_1310740="protectionLevel" androidx.work.impl.diagnostics.DiagnosticsReceiver="162" android.permission.DUMP="162" attr_4294967295="162" attr_4294967295="162">
+      <intent-filter>
+        <action attr_1310740="label">
+        </action>
+      </intent-filter>
+    </receiver>
+    <service attr_1310740="name" com.google.firebase.components.ComponentDiscoveryService="162" attr_4294967295="162">
+      <meta-data attr_1310740="icon" com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar="162">
+      </meta-data>
+      <meta-data attr_1310740="icon" com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar="162">
+      </meta-data>
+      <meta-data attr_1310740="icon" com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar="162">
+      </meta-data>
+      <meta-data attr_1310740="icon" com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar="162">
+      </meta-data>
+      <meta-data attr_1310740="icon" com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar="162">
+      </meta-data>
+      <meta-data attr_1310740="icon" com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar="162">
+      </meta-data>
+      <meta-data attr_1310740="icon" com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar="162">
+      </meta-data>
+      <meta-data attr_1310740="icon" com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar="162">
+      </meta-data>
+      <meta-data attr_1310740="icon" com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar="162">
+      </meta-data>
+    </service>
+    <receiver attr_1310740="name" com.google.firebase.iid.FirebaseInstanceIdReceiver="162" com.google.android.c2dm.permission.SEND="162">
+      <intent-filter>
+        <action attr_1310740="label">
+        </action>
+      </intent-filter>
+      <meta-data attr_1310740="icon" com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED="162">
+      </meta-data>
+    </receiver>
+    <service attr_1310740="name" com.google.firebase.messaging.FirebaseMessagingService="162" attr_4294967295="162">
+      <intent-filter attr_1310740="label">
+        <action attr_1310740="label">
+        </action>
+      </intent-filter>
+    </service>
+    <service attr_1310740="name" com.google.firebase.sessions.SessionLifecycleService="162" attr_4294967295="162">
+    </service>
+    <provider attr_1310740="protectionLevel" com.google.firebase.provider.FirebaseInitProvider="162" attr_4294967295="162" com.trustonic.telecoms.standard.dpc.firebaseinitprovider="162" attr_4294967295="162">
+    </provider>
+    <activity attr_1310740="name" attr_4294967295="@0x000000a2" com.google.android.gms.common.api.GoogleApiActivity="162">
+    </activity>
+    <service attr_1310740="name" androidx.room.MultiInstanceInvalidationService="162" attr_4294967295="162">
+    </service>
+    <uses-library attr_1310740="icon" androidx.window.extensions="162">
+    </uses-library>
+    <uses-library attr_1310740="icon" androidx.window.sidecar="162">
+    </uses-library>
+    <meta-data attr_1310740="icon" com.google.android.gms.version="162">
+    </meta-data>
+    <service attr_1310740="icon" com.google.android.datatransport.runtime.backends.TransportBackendDiscovery="162">
+      <meta-data attr_1310740="icon" backend:com.google.android.datatransport.cct.CctBackendFactory="162">
+      </meta-data>
+    </service>
+    <receiver attr_1310740="protectionLevel" androidx.profileinstaller.ProfileInstallReceiver="162" android.permission.DUMP="162" attr_4294967295="162" attr_4294967295="162">
+      <intent-filter>
+        <action attr_1310740="label">
+        </action>
+      </intent-filter>
+      <intent-filter>
+        <action attr_1310740="label">
+        </action>
+      </intent-filter>
+      <intent-filter>
+        <action attr_1310740="label">
+        </action>
+      </intent-filter>
+      <intent-filter>
+        <action attr_1310740="label">
+        </action>
+      </intent-filter>
+    </receiver>
+    <service attr_1310740="name" com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService="162" android.permission.BIND_JOB_SERVICE="162">
+    </service>
+    <receiver attr_1310740="icon" com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver="162">
+    </receiver>
+  </application>
+</manifest>

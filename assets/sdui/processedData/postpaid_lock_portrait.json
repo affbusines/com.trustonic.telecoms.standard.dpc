@@ -1,0 +1,376 @@
+{
+  "content": {
+    "type": "box",
+    "modifier": {
+      "backgroundColor": "@background",
+      "fillMaxWidth": true,
+      "fillMaxHeight": true,
+      "contentAlignment": "BOTTOM_CENTER"
+    },
+    "children": [
+      {
+        "refKey": "background",
+        "type": "box"
+      },
+      {
+        "type": "column",
+        "modifier": {
+          "fillMaxWidth": true,
+          "fillMaxHeight": true,
+          "padding": {
+            "start": 24,
+            "end": 24
+          }
+        },
+        "children": [
+          {
+            "refKey": "header",
+            "type": "box",
+            "modifier": {
+              "fillMaxWidth": true,
+              "padding": {
+                "top": 24
+              }
+            },
+            "children": [
+              {
+                "type": "row",
+                "modifier": {
+                  "fillMaxWidth": true,
+                  "horizontalArrangement": "SPACE_BETWEEN",
+                  "verticalAlignment": "CENTER_VERTICAL",
+                  "padding": {
+                    "top": 8,
+                    "bottom": 8
+                  }
+                },
+                "children": [
+                  {
+                    "type": "icon",
+                    "modifier": {
+                      "height": 30
+                    },
+                    "icon": {
+                      "defaultPath": "file:///android_asset/sdui/assets/branding/ic_logo_light.svg",
+                      "lightPath": "file:///android_asset/sdui/assets/branding/ic_logo_light.svg",
+                      "darkPath": "file:///android_asset/sdui/assets/branding/ic_logo_light.svg"
+                    }
+                  },
+                  {
+                    "type": "button",
+                    "maxLength": 20,
+                    "modifier": {
+                      "backgroundColor": "@extended.transparent"
+                    },
+                    "contentPadding": {
+                      "start": 0,
+                      "end": 0,
+                      "top": 0,
+                      "bottom": 0
+                    },
+                    "text": "Help",
+                    "prefixIcon": {
+                      "defaultPath": "file:///android_asset/sdui/assets/ic_help.svg",
+                      "lightPath": null,
+                      "darkPath": null
+                    },
+                    "style": {
+                      "textColor": "@primary",
+                      "iconColor": "@primary",
+                      "fontSize": 14
+                    },
+                    "action": {
+                      "type": "navigate",
+                      "path": "HELP"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "refKey": "content",
+            "type": "box",
+            "modifier": {
+              "fillMaxWidth": true
+            },
+            "children": [
+              {
+                "type": "column",
+                "modifier": {
+                  "fillMaxWidth": true
+                },
+                "scrollable": true,
+                "children": [
+                  {
+                    "type": "icon",
+                    "modifier": {
+                      "size": 40,
+                      "padding": {
+                        "top": 16
+                      }
+                    },
+                    "style": {
+                      "iconColor": "@primary"
+                    },
+                    "dynamicBindings": {
+                      "iconPath": "iconPath"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "",
+                    "maxLength": 50,
+                    "supportedLinks": true,
+                    "modifier": {
+                      "fillMaxWidth": true,
+                      "padding": {
+                        "top": 16
+                      }
+                    },
+                    "style": {
+                      "fontSize": 20,
+                      "lineHeight": 30,
+                      "textColor": "@onBackground",
+                      "fontWeight": "bold"
+                    },
+                    "dynamicBindings": {
+                      "text": "title"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "",
+                    "maxLength": 500,
+                    "supportedLinks": true,
+                    "modifier": {
+                      "fillMaxWidth": true,
+                      "padding": {
+                        "top": 4,
+                        "bottom": 16
+                      }
+                    },
+                    "style": {
+                      "fontSize": 14,
+                      "lineHeight": 20,
+                      "textColor": "@onBackground"
+                    },
+                    "dynamicBindings": {
+                      "text": "message"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "text": "",
+                    "maxLength": 500,
+                    "supportedLinks": true,
+                    "modifier": {
+                      "fillMaxWidth": true
+                    },
+                    "style": {
+                      "fontSize": 14,
+                      "lineHeight": 20,
+                      "textColor": "@onBackground"
+                    },
+                    "dynamicBindings": {
+                      "text": "secondaryMessage"
+                    }
+                  },
+                  {
+                    "type": "row",
+                    "modifier": {
+                      "fillMaxWidth": true,
+                      "padding": {
+                        "top": 16
+                      },
+                      "horizontalArrangement": "SPACE_BETWEEN"
+                    },
+                    "children": [
+                      {
+                        "type": "box",
+                        "modifier": {
+                          "weight": 1
+                        },
+                        "children": [
+                          {
+                            "type": "button",
+                            "maxLength": 20,
+                            "modifier": {
+                              "backgroundColor": "@extended.transparent"
+                            },
+                            "contentPadding": {
+                              "start": 0,
+                              "end": 0,
+                              "top": 0,
+                              "bottom": 0
+                            },
+                            "text": "View account info",
+                            "prefixIcon": {
+                              "defaultPath": "file:///android_asset/sdui/assets/ic_info.svg",
+                              "lightPath": null,
+                              "darkPath": null
+                            },
+                            "style": {
+                              "textColor": "@extended.additionalButton",
+                              "iconColor": "@extended.additionalButton",
+                              "fontSize": 14
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "box",
+                        "modifier": {
+                          "weight": 1
+                        },
+                        "children": [
+                          {
+                            "type": "button",
+                            "maxLength": 20,
+                            "modifier": {
+                              "backgroundColor": "@extended.transparent"
+                            },
+                            "contentPadding": {
+                              "start": 0,
+                              "end": 0,
+                              "top": 0,
+                              "bottom": 0
+                            },
+                            "text": "Store finder",
+                            "prefixIcon": {
+                              "defaultPath": "file:///android_asset/sdui/assets/ic_location.svg",
+                              "lightPath": null,
+                              "darkPath": null
+                            },
+                            "style": {
+                              "textColor": "@extended.additionalButton",
+                              "iconColor": "@extended.additionalButton",
+                              "fontSize": 14
+                            },
+                            "action": {
+                              "type": "custom",
+                              "customAction": "OpenLink",
+                              "params": {
+                                "defaultUrl": "https://www.google.com/maps/dir//10.7732838,106.7227857/",
+                                "url": "${deviceCustomProperties.store_url}"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "button",
+                    "maxLength": 20,
+                    "modifier": {
+                      "backgroundColor": "@primary",
+                      "padding": {
+                        "top": 16
+                      }
+                    },
+                    "text": "Make a payment",
+                    "suffixIcon": {
+                      "defaultPath": "file:///android_asset/sdui/assets/ic_arrow_right.svg",
+                      "lightPath": null,
+                      "darkPath": null
+                    },
+                    "style": {
+                      "textColor": "@onPrimary",
+                      "iconColor": "@onPrimary",
+                      "fontSize": 14
+                    },
+                    "action": {
+                      "type": "custom",
+                      "customAction": "PaymentAction"
+                    }
+                  },
+                  {
+                    "type": "white_list_apps",
+                    "dynamicBindings": {
+                      "data": "whiteListApps"
+                    },
+                    "backgroundColor": "@surfaceContainerHighest",
+                    "style": {
+                      "fontSize": 12,
+                      "textColor": "@onTertiaryContainer"
+                    },
+                    "defaultApps": [
+                      {
+                        "title": "Dialer",
+                        "intentAction": "android.intent.action.DIAL",
+                        "icon": {
+                          "defaultPath": "file:///android_asset/sdui/assets/ic_dialler.svg",
+                          "lightPath": null,
+                          "darkPath": null
+                        },
+                        "position": 6
+                      },
+                      {
+                        "title": "Settings",
+                        "intentAction": "android.settings.SETTINGS",
+                        "icon": {
+                          "defaultPath": "file:///android_asset/sdui/assets/ic_settings.svg",
+                          "lightPath": null,
+                          "darkPath": null
+                        },
+                        "position": 7
+                      }
+                    ],
+                    "fallBackIcon": {
+                      "defaultPath": "file:///android_asset/sdui/assets/ic_android.svg",
+                      "lightPath": null,
+                      "darkPath": null
+                    },
+                    "modifier": {
+                      "padding": {
+                        "top": 26,
+                        "bottom": 64
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "refKey": "footer",
+        "type": "box",
+        "modifier": {
+          "fillMaxWidth": true,
+          "contentAlignment": "BOTTOM_CENTER"
+        },
+        "children": [
+          {
+            "type": "button",
+            "maxLength": 20,
+            "modifier": {
+              "backgroundColor": "@errorContainer"
+            },
+            "text": "Emergency call",
+            "prefixIcon": {
+              "defaultPath": "file:///android_asset/sdui/assets/ic_phone.svg",
+              "lightPath": null,
+              "darkPath": null
+            },
+            "style": {
+              "fontSize": 14,
+              "textColor": "@onErrorContainer",
+              "iconColor": "@onErrorContainer"
+            },
+            "dynamicBindings": {
+              "text": "EMGButtonLabel",
+              "visibility": "EMGButtonVisibility"
+            },
+            "action": {
+              "type": "intent",
+              "intentAction": "android.intent.action.DIAL"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

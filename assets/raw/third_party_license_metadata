@@ -1,0 +1,350 @@
+0:89 Accompanist Drawable Painter library
+0:89 Accompanist Permissions
+0:89 Activity
+0:89 Activity Compose
+0:89 Activity Kotlin Extensions
+0:89 Material Adaptive
+0:89 Material Adaptive
+0:89 Material Adaptive
+0:89 Material Adaptive
+0:89 Material Adaptive
+0:89 Material Adaptive
+0:89 Material Adaptive
+0:89 Material Adaptive
+0:89 Material Adaptive
+0:89 AndroidSVG
+0:89 Compose Animation
+89:90 Compose Animation
+0:89 Compose Animation
+0:89 Compose Animation Core
+89:90 Compose Animation Core
+0:89 Compose Animation Core
+89:90 Compose Animation Core
+0:89 Compose Animation Core
+89:90 Compose Animation
+0:89 Compose Animation
+0:89 Annotation
+0:89 Experimental annotation
+0:89 Experimental annotation
+0:89 Annotation
+89:90 JetBrains Java Annotations
+0:89 AppCompat
+0:89 AppCompat
+0:89 AppCompat Resources
+0:89 AppCompat Resources
+179:60 atomicfu
+179:60 atomicfu
+0:89 AndroidX Autofill
+0:89 Android Support CardView v7
+239:81 coil
+239:81 coil
+239:81 coil-compose
+239:81 coil-compose
+239:81 coil-compose-core
+239:81 coil-compose-core
+239:81 coil-compose-core
+239:81 coil-compose
+239:81 coil-core
+239:81 coil-core
+239:81 coil-core
+239:81 coil
+239:81 coil-svg
+239:81 coil-svg
+239:81 coil-svg
+0:89 collections
+0:89 collections
+0:89 Collections Kotlin Extensions
+0:89 Jetpack Compose Libraries BOM
+0:89 AndroidX Futures
+0:89 AndroidX Futures Kotlin Extensions
+0:89 ConstraintLayout
+0:89 ConstraintLayout Compose
+0:89 ConstraintLayout Compose
+0:89 ConstraintLayout Core
+0:89 Android Support Library Coordinator Layout
+0:89 Core
+0:89 Android Arch-Common
+0:89 Core Kotlin Extensions
+0:89 Android Arch-Runtime
+0:89 SplashScreen
+0:89 androidx.core:core-viewtree
+0:89 Android Support Library Cursor Adapter
+0:89 Custom View
+0:89 androidx.customview:poolingcontainer
+320:60 Dagger
+320:60 Dagger Lint Rules AAR Distribution
+0:89 DataStore
+0:89 DataStore
+0:89 DataStore Core
+0:89 DataStore Core
+0:89 DataStore Core
+0:89 DataStore Core Okio
+0:89 DataStore Core Okio
+0:89 DataStore
+0:89 Preferences DataStore
+0:89 Preferences DataStore
+0:89 Preferences DataStore Core
+0:89 Preferences DataStore Core
+0:89 Preferences DataStore Core
+380:59 Preferences External Protobuf
+0:89 Preferences DataStore
+0:89 Preferences DataStore Proto
+0:89 Android Support Library Document File
+0:89 Android Support Library Drawer Layout
+0:89 DynamicAnimation
+0:89 Android Emoji2 Compat
+0:89 Emoji2
+0:89 Android Emoji2 Compat view helpers
+0:89 Emoji2 Views Helper
+439:59 error-prone annotations
+0:89 ExifInterface
+0:89 Firebase Annotations
+0:89 Firebase Bom
+0:89 Firebase Common
+0:89 Firebase Components
+0:89 Firebase Config Interop
+0:89 Firebase Crashlytics
+0:89 Firebase Datatransport
+0:89 firebase-encoders
+0:89 Firebase Encoders Json
+0:89 firebase-encoders-proto
+498:90 firebase-iid-interop
+0:89 Firebase Installations
+0:89 Firebase Installations Interop
+498:90 firebase-measurement-connector
+0:89 Firebase Messaging
+0:89 Firebase Sessions
+0:89 Compose Foundation
+89:90 Compose Foundation
+0:89 Compose Foundation
+89:90 Compose Foundation
+0:89 Compose Foundation
+0:89 Compose Layouts
+89:90 Compose Layouts
+0:89 Compose Layouts
+89:90 Compose Layouts
+0:89 Compose Layouts
+0:89 Android Support Library fragment
+0:89 Android Graphics Path
+0:89 Graphics Shapes
+0:89 Graphics Shapes
+0:89 Graphics Shapes
+179:60 Gson
+320:60 Hilt Android
+0:89 Hilt Common
+320:60 Hilt Core
+0:89 ViewModel Hilt Extension
+0:89 ViewModel Compose Hilt Extension
+0:89 Navigation Compose Hilt Integration
+0:89 WorkManager Hilt Extension
+0:89 Android Support Library Interpolators
+588:363 Jakarta Dependency Injection
+0:89 javax.inject
+951:77 jbr-api
+1028:140 JSpecify annotations
+1168:152 FindBugs-jsr305
+0:89 Kotlin Libraries bill-of-materials
+1320:59 Kotlin Stdlib
+1320:59 Kotlin Stdlib Common
+1379:80 Kotlin Stdlib Jdk7
+1379:80 Kotlin Stdlib Jdk8
+179:60 kotlinx-coroutines-android
+179:60 kotlinx-coroutines-bom
+179:60 kotlinx-coroutines-core
+179:60 kotlinx-coroutines-core
+179:60 kotlinx-coroutines-play-services
+179:60 kotlinx-serialization-bom
+179:60 kotlinx-serialization-core
+179:60 kotlinx-serialization-core
+179:60 kotlinx-serialization-json
+179:60 kotlinx-serialization-json
+0:89 Android Support Library core utils
+0:89 Chucker
+0:89 Lifecycle-Common
+89:90 Lifecycle-Common
+0:89 Lifecycle-Common for Java 8
+0:89 Lifecycle-Common
+0:89 Lifecycle LiveData
+0:89 Lifecycle LiveData Core
+0:89 LiveData Core Kotlin Extensions
+0:89 Lifecycle Process
+0:89 Lifecycle Runtime
+89:90 Lifecycle Runtime
+0:89 Lifecycle Runtime
+0:89 Lifecycle Runtime Compose
+89:90 Lifecycle Runtime Compose
+0:89 Lifecycle Runtime Compose
+0:89 Lifecycle Runtime Compose
+89:90 Lifecycle Runtime Compose
+0:89 Lifecycle Runtime
+0:89 Lifecycle Kotlin Extensions
+0:89 Lifecycle Kotlin Extensions
+0:89 Lifecycle Service
+0:89 Lifecycle ViewModel
+89:90 Lifecycle ViewModel
+0:89 Lifecycle ViewModel
+0:89 Lifecycle ViewModel Compose
+0:89 Lifecycle ViewModel Compose
+0:89 Lifecycle ViewModel Compose
+0:89 Lifecycle ViewModel
+0:89 Lifecycle ViewModel Kotlin Extensions
+0:89 Lifecycle ViewModel with SavedState
+89:90 Lifecycle ViewModel with SavedState
+0:89 Lifecycle ViewModel with SavedState
+0:89 Lifecycle ViewModel with SavedState
+0:89 Guava ListenableFuture only
+0:89 Android Support Library loader
+0:89 Android Support Library Local Broadcast Manager
+89:90 logging-interceptor
+0:89 Material Components for Android
+0:89 Compose Material Icons Core
+0:89 Compose Material Icons Core
+0:89 Compose Material Icons Core
+0:89 Compose Material Icons Extended
+0:89 Compose Material Icons Extended
+0:89 Compose Material Icons Extended
+0:89 Compose Material Ripple
+0:89 Compose Material Ripple
+0:89 Compose Material Ripple
+0:89 Compose Material3 Components
+0:89 Compose Material3 Components
+0:89 Compose Material3 Components
+0:89 Compose Material 3 Window Size Class
+0:89 Compose Material 3 Window Size Class
+0:89 Compose Material 3 Window Size Class
+0:89 Navigation Common
+0:89 Navigation Common
+0:89 Navigation Common
+0:89 Compose Navigation
+0:89 Compose Navigation
+0:89 Compose Navigation
+0:89 Navigation Runtime
+0:89 Navigation Runtime
+0:89 Navigation Runtime
+0:89 Navigation Event
+0:89 Navigation Event
+0:89 Navigation Event
+0:89 NavigationEvent Compose
+0:89 NavigationEvent Compose
+0:89 NavigationEvent Compose
+0:89 NavigationEvent Compose
+0:89 Navigation Event
+89:90 okhttp
+89:90 okhttp
+89:90 okhttp
+0:89 okio
+0:89 okio
+498:90 play-services-base
+498:90 play-services-basement
+498:90 play-services-cloud-messaging
+498:90 play-services-stats
+498:90 play-services-tasks
+0:89 Android Support Library Print
+0:89 Profile Installer
+0:89 Profile Installer
+1459:120 Protocol Buffers [Lite]
+1459:120 Protocol Buffers [Kotlin-Lite]
+0:89 Android Support RecyclerView
+0:89 Android Resource Inspection - Annotations
+89:90 Retrofit
+0:89 Retrofit 2 Kotlin Serialization Converter
+0:89 Room-Common
+0:89 Room-Common
+0:89 Room Kotlin Extensions
+0:89 Room-Runtime
+0:89 Room-Runtime
+0:89 Room-Runtime
+0:89 Compose Runtime
+89:90 Compose Runtime
+0:89 Compose Runtime
+0:89 Compose Runtime Annotation
+0:89 Compose Runtime Annotation
+0:89 Compose Runtime Annotation
+0:89 Compose Runtime
+89:90 Compose Runtime
+0:89 Compose Runtime Retain
+0:89 Compose Runtime Retain
+0:89 Compose Runtime Retain
+0:89 Compose Saveable
+89:90 Compose Saveable
+0:89 Compose Saveable
+0:89 Compose Saveable
+89:90 Compose Saveable
+0:89 Saved State
+89:90 Saved State
+0:89 Saved State
+0:89 Saved State Compose
+89:90 Saved State Compose
+0:89 Saved State Compose
+0:89 Saved State Compose
+89:90 Saved State Compose
+0:89 Saved State
+0:89 SavedState Kotlin Extensions
+0:89 Security
+0:89 Security Kotlin Extensions
+1379:80 Skiko KMP
+1379:80 Skiko Awt
+0:89 SQLite
+0:89 SQLite
+0:89 SQLite Framework Integration
+0:89 SQLite Framework Integration
+0:89 SQLite
+0:89 Android App Startup Runtime
+0:89 Startup Runtime
+0:89 Timber
+1579:76 Tink Cryptography API for Android
+0:89 Tracing
+0:89 Tracing
+0:89 Tracing Kotlin Extensions
+0:89 Transition
+0:89 Transition
+0:89 Transport Api
+0:89 Transport Backend Cct
+0:89 Transport Runtime
+0:89 Compose UI
+89:90 Compose UI
+0:89 Compose UI
+89:90 Compose BackHandler
+89:90 Compose BackHandler
+89:90 Compose UI
+0:89 Compose Geometry
+89:90 Compose Geometry
+0:89 Compose Geometry
+89:90 Compose Geometry
+0:89 Compose Geometry
+0:89 Compose Graphics
+89:90 Compose Graphics
+0:89 Compose Graphics
+89:90 Compose Graphics
+0:89 Compose Graphics
+0:89 Compose UI
+0:89 Compose UI Text
+89:90 Compose UI Text
+0:89 Compose UI Text
+89:90 Compose UI Text
+0:89 Compose UI Text
+0:89 Compose UI Preview Tooling
+0:89 Compose UI Preview Tooling
+0:89 Compose UI Preview Tooling
+0:89 Compose Unit
+89:90 Compose Unit
+0:89 Compose Unit
+89:90 Compose Unit
+0:89 Compose Unit
+0:89 Compose Util
+89:90 Compose Util
+0:89 Compose Util
+89:90 Compose Util
+0:89 Compose Util
+0:89 Android Support VectorDrawable
+0:89 Android Support AnimatedVectorDrawable
+0:89 VersionedParcelable
+0:89 Android Support Library View Pager
+0:89 AndroidX Widget ViewPager2
+0:89 WindowManager
+0:89 WindowManager Core
+0:89 WindowManager Core
+0:89 WindowManager Core
+0:89 WindowManager Core
+0:89 WorkManager Runtime
+0:89 WorkManager Kotlin Extensions

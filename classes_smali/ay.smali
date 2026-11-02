@@ -1,0 +1,98 @@
+.class public final Lay;
+.super Ljava/lang/Object;
+.source "r8-map-id-dac0f03c629d9db9fe0424f97c05399cb70cf7622585cb6a7f34933e251aff40"
+
+# interfaces
+.implements Lrv3;
+
+
+# static fields
+.field public static final a:Lay;
+
+.field public static final b:Lpy1;
+
+.field public static final c:Lpy1;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .registers 1
+
+    .line 1
+    new-instance v0, Lay;
+
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 6
+    sput-object v0, Lay;->a:Lay;
+
+    .line 8
+    const-string v0, "filename"
+
+    .line 10
+    invoke-static {v0}, Lpy1;->a(Ljava/lang/String;)Lpy1;
+
+    .line 13
+    move-result-object v0
+
+    .line 14
+    sput-object v0, Lay;->b:Lpy1;
+
+    .line 16
+    const-string v0, "contents"
+
+    .line 18
+    invoke-static {v0}, Lpy1;->a(Ljava/lang/String;)Lpy1;
+
+    .line 21
+    move-result-object v0
+
+    .line 22
+    sput-object v0, Lay;->c:Lpy1;
+
+    .line 24
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/Object;Ljava/lang/Object;)V
+    .registers 4
+
+    .line 1
+    check-cast p1, Lk01;
+
+    .line 3
+    check-cast p2, Lsv3;
+
+    .line 5
+    move-object p0, p1
+
+    .line 6
+    check-cast p0, La00;
+
+    .line 8
+    iget-object p0, p0, La00;->a:Ljava/lang/String;
+
+    .line 10
+    sget-object v0, Lay;->b:Lpy1;
+
+    .line 12
+    invoke-interface {p2, v0, p0}, Lsv3;->a(Lpy1;Ljava/lang/Object;)Lsv3;
+
+    .line 15
+    check-cast p1, La00;
+
+    .line 17
+    iget-object p0, p1, La00;->b:[B
+
+    .line 19
+    sget-object p1, Lay;->c:Lpy1;
+
+    .line 21
+    invoke-interface {p2, p1, p0}, Lsv3;->a(Lpy1;Ljava/lang/Object;)Lsv3;
+
+    .line 24
+    return-void
+.end method

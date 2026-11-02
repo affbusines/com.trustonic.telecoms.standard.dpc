@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "com.trustonic.telecoms.core.storage";
+option java_multiple_files = true;
+
+message UIPreferences {
+    // UI Mode
+    bool new_ui_mode_enabled = 1;
+}

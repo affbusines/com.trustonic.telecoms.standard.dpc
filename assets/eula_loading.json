@@ -1,0 +1,23 @@
+{
+  "content": {
+    "type": "column",
+    "modifier": {
+      "fillMaxWidth": true,
+      "fillMaxHeight": true,
+      "horizontalAlignment": "CENTER_HORIZONTAL",
+      "verticalArrangement": "CENTER",
+      "backgroundColor": "#ffffff"
+    },
+    "children": [
+      {
+        "type": "progress",
+        "style": {
+          "iconColor": "#9E0000"
+        },
+        "modifier": {
+          "size": 200
+        }
+      }
+    ]
+  }
+}

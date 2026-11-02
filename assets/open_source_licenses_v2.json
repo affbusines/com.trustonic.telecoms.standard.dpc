@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    {
+      "moduleName": "com.google.firebase:firebase-bom",
+      "moduleVersion": "26.2.0",
+      "moduleUrl": null,
+      "moduleLicense": "Android Software Development Kit License",
+      "moduleLicenseUrl": "https://developer.android.com/studio/terms.html"
+    },
+    {
+      "moduleName": "org.apache.commons:commons-io",
+      "moduleVersion": "1.3.2",
+      "moduleUrl": null,
+      "moduleLicense": "The Apache Software License, Version 2.0",
+      "moduleLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+      "moduleName": "org.jetbrains.kotlinx:kotlinx-coroutines-core",
+      "moduleVersion": "1.5.1",
+      "moduleUrl": "https://github.com/Kotlin/kotlinx.coroutines",
+      "moduleLicense": "The Apache Software License, Version 2.0",
+      "moduleLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+      "moduleName": "com.squareup.okhttp3:publicsuffix",
+      "moduleVersion": "4.9.0",
+      "moduleUrl": "https://github.com/publicsuffix/list/",
+      "moduleLicense": "Note that publicsuffixes.gz is compiled from The Public Suffix List",
+      "moduleLicenseUrl": "https://publicsuffix.org/list/public_suffix_list.dat"
+    },
+    {
+      "moduleName": "com.squareup.okhttp3:publicsuffix",
+      "moduleVersion": "4.9.0",
+      "moduleUrl": "https://github.com/publicsuffix/list/",
+      "moduleLicense": "Mozilla Public License, v. 2.0",
+      "moduleLicenseUrl": "https://mozilla.org/MPL/2.0/"
+    },
+    {
+      "moduleName": "com.squareup.okio:okio",
+      "moduleVersion": "3.6.0",
+      "moduleUrl": "https://github.com/square/okio/",
+      "moduleLicense": "The Apache Software License, Version 2.0",
+      "moduleLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+      "moduleName": "org.jetbrains.kotlin:kotlin-stdlib-common",
+      "moduleVersion": "1.9.21",
+      "moduleUrl": null,
+      "moduleLicense": "The Apache Software License, Version 2.0",
+      "moduleLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+    },
+    {
+      "moduleName": "org.jetbrains.kotlinx:kotlinx-coroutines-bom",
+      "moduleVersion": "1.6.1",
+      "moduleUrl": "https://github.com/Kotlin/kotlinx.coroutines/tree/master/kotlinx-coroutines-bom",
+      "moduleLicense": "The Apache Software License, Version 2.0",
+      "moduleLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+    }
+  ]
+}

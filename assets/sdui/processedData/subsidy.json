@@ -1,0 +1,375 @@
+{
+  "actionBar": {
+    "type": "action_bar",
+    "title": "",
+    "navIconPath": "",
+    "fallbackNavIconPath": "",
+    "dynamicBindings": {
+      "navIconPath": "navIconPath",
+      "title": "organisationName",
+      "fallbackNavIconPath": "defaultOrgIconPath"
+    },
+    "centerTitle": false,
+    "modifier": {
+      "backgroundColor": "#ffffff"
+    },
+    "menu": [
+      {
+        "type": "action_bar_menu_item",
+        "text": "Refresh",
+        "dynamicBindings": {
+          "text": "refreshLabel"
+        },
+        "action": {
+          "type": "navigate",
+          "behavior": "push",
+          "path": "REFRESH"
+        }
+      },
+      {
+        "type": "action_bar_menu_item",
+        "text": "PIN Unlock",
+        "dynamicBindings": {
+          "enabled": "pinUnlockEnabled",
+          "text": "pinUnlockLabel"
+        },
+        "action": {
+          "type": "custom",
+          "customAction": "PinUnlockClicked"
+        }
+      },
+      {
+        "type": "action_bar_menu_item",
+        "text": "Feedback",
+        "dynamicBindings": {
+          "text": "feedbackLabel"
+        },
+        "action": {
+          "type": "navigate",
+          "behavior": "push",
+          "path": "FEEDBACK"
+        }
+      },
+      {
+        "text": "Support",
+        "dynamicBindings": {
+          "text": "supportLabel"
+        },
+        "action": {
+          "type": "navigate",
+          "behavior": "push",
+          "path": "SUPPORT"
+        }
+      },
+      {
+        "type": "action_bar_menu_item",
+        "text": "Applications",
+        "dynamicBindings": {
+          "visibility": "whiteListAppsVisibility",
+          "text": "applicationsLabel"
+        },
+        "action": {
+          "type": "navigate",
+          "behavior": "push",
+          "path": "WHITELISTAPP"
+        }
+      },
+      {
+        "type": "action_bar_menu_item",
+        "text": "About",
+        "dynamicBindings": {
+          "text": "aboutLabel"
+        },
+        "action": {
+          "type": "navigate",
+          "behavior": "push",
+          "path": "ABOUT"
+        }
+      },
+      {
+        "type": "action_bar_menu_item",
+        "text": "Help",
+        "dynamicBindings": {
+          "visibility": "helpVisibility"
+        },
+        "action": {
+          "type": "navigate",
+          "behavior": "push",
+          "path": "HELP"
+        }
+      }
+    ]
+  },
+  "bottomBar": {
+    "type": "bottom_bar",
+    "modifier": {
+      "backgroundColor": "#052337"
+    },
+    "bottomDockedButton": {
+      "type": "bottom_docked_button",
+      "iconPath": "",
+      "fallBackAssetPath": "",
+      "dynamicBindings": {
+        "iconPath": "dockedIconPath",
+        "enabled": "dockedButtonEnabled",
+        "backgroundColor": "dockedButtonBgColor",
+        "fallBackAssetPath": "defaultDockedIconPath"
+      },
+      "action": {
+        "type": "custom",
+        "customAction": "DockedIconClicked"
+      }
+    },
+    "items": [
+      {
+        "text": "Home",
+        "iconPath": "",
+        "fallBackAssetPath": "",
+        "dynamicBindings": {
+          "iconPath": "homeIconPath",
+          "fallBackAssetPath": "defaultHomeIconPath",
+          "text": "homeLabel"
+        },
+        "action": {
+          "type": "custom",
+          "customAction": "HomeClicked"
+        }
+      },
+      {
+        "text": "Dialer",
+        "iconPath": "",
+        "fallBackAssetPath": "",
+        "dynamicBindings": {
+          "iconPath": "dialerIconPath",
+          "fallBackAssetPath": "defaultDialerIconPath",
+          "text": "dialerLabel"
+        },
+        "action": {
+          "type": "intent",
+          "intentAction": "android.intent.action.DIAL"
+        }
+      },
+      {
+        "text": "Settings",
+        "iconPath": "",
+        "fallBackAssetPath": "",
+        "dynamicBindings": {
+          "iconPath": "settingsIconPath",
+          "fallBackAssetPath": "defaultSettingsIconPath",
+          "text": "settingsLabel"
+        },
+        "action": {
+          "type": "intent",
+          "intentAction": "android.settings.SETTINGS"
+        }
+      },
+      {
+        "text": "Contact",
+        "iconPath": "",
+        "fallBackAssetPath": "",
+        "dynamicBindings": {
+          "iconPath": "contactIconPath",
+          "fallBackAssetPath": "defaultContactIconPath",
+          "text": "contactLabel"
+        },
+        "action": {
+          "type": "navigate",
+          "behavior": "push",
+          "path": "CONTACTDIALOG"
+        }
+      }
+    ]
+  },
+  "content": {
+    "type": "column",
+    "modifier": {
+      "fillMaxWidth": true,
+      "fillMaxHeight": true
+    },
+    "children": [
+      {
+        "type": "column",
+        "modifier": {
+          "visibility": "visible",
+          "horizontalAlignment": "CENTER_HORIZONTAL",
+          "fillMaxWidth": true,
+          "fillMaxHeight": true,
+          "backgroundColor": "#3DCD65"
+        },
+        "dynamicBindings": {
+          "backgroundColor": "backgroundColor",
+          "visibility": "policyVisibility"
+        },
+        "children": [
+          {
+            "type": "text",
+            "text": "",
+            "modifier": {
+              "padding": {
+                "top": 10
+              }
+            },
+            "dynamicBindings": {
+              "text": "title",
+              "textColor": "titleColor"
+            }
+          },
+          {
+            "type": "box",
+            "modifier": {
+              "height": 20
+            }
+          },
+          {
+            "type": "column",
+            "modifier": {
+              "horizontalAlignment": "CENTER_HORIZONTAL",
+              "fillMaxWidth": true,
+              "fillMaxHeight": true,
+              "backgroundColor": "#ffffff",
+              "rounded": {
+                "topStart": 10,
+                "topEnd": 10,
+                "bottomStart": 10,
+                "bottomEnd": 10
+              },
+              "padding": {
+                "start": 10,
+                "end": 10,
+                "top": 10,
+                "bottom": 10
+              }
+            },
+            "children": [
+              {
+                "type": "icon",
+                "iconPath": "",
+                "dynamicBindings": {
+                  "iconPath": "iconPath",
+                  "responsiveIconSize": "responsiveIconSize"
+                },
+                "modifier": {
+                  "size": 170,
+                  "horizontalAlignment": "CENTER_HORIZONTAL",
+                  "padding": {
+                    "top": 20
+                  }
+                }
+              },
+              {
+                "type": "box",
+                "modifier": {
+                  "height": 20
+                }
+              },
+              {
+                "type": "box",
+                "scrollable": true,
+                "modifier": {
+                  "horizontalAlignment": "START",
+                  "weight": 1,
+                  "padding": {
+                    "start": 60,
+                    "end": 60
+                  }
+                },
+                "child": {
+                  "type": "text",
+                  "text": "",
+                  "dynamicBindings": {
+                    "text": "message",
+                    "textColor": "messageColor",
+                    "fontSize": "messageFontSize"
+                  }
+                }
+              },
+              {
+                "type": "button",
+                "text": "",
+                "dynamicBindings": {
+                  "text": "buttonLabel",
+                  "textColor": "buttonLabelColor",
+                  "backgroundColor": "buttonColor",
+                  "rippleColor": "buttonRippleColor",
+                  "visibility": "buttonVisibility"
+                },
+                "action": {
+                  "type": "intent",
+                  "intentAction": "android.intent.action.DIAL"
+                },
+                "contentPadding": {
+                  "start": 16,
+                  "top": 0,
+                  "end": 16,
+                  "bottom": 0
+                },
+                "modifier": {
+                  "backgroundColor": "#a1020f",
+                  "height": 32,
+                  "rounded": {
+                    "topStart": 30,
+                    "topEnd": 30,
+                    "bottomStart": 30,
+                    "bottomEnd": 30
+                  }
+                }
+              },
+              {
+                "type": "box",
+                "modifier": {
+                  "height": 20
+                }
+              },
+              {
+                "type": "text",
+                "text": "",
+                "modifier": {
+                  "padding": {
+                    "start": 25,
+                    "end": 25
+                  }
+                },
+                "dynamicBindings": {
+                  "text": "secondaryMessage",
+                  "textColor": "secondaryMessageColor"
+                }
+              },
+              {
+                "type": "icon",
+                "iconPath": "",
+                "contentScale": "FIT",
+                "dynamicBindings": {
+                  "iconPath": "additionalIconPath"
+                },
+                "modifier": {
+                  "horizontalAlignment": "END",
+                  "width": 60,
+                  "height": 60,
+                  "padding": {
+                    "end": 20,
+                    "bottom": 10
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "payment_web_view",
+        "modifier": {
+          "fillMaxWidth": true,
+          "fillMaxHeight": true,
+          "visibility": "gone"
+        },
+        "dynamicBindings": {
+          "content": "paymentContent",
+          "contentType": "paymentContentType",
+          "errorContent": "paymentErrorContent",
+          "errorContentType": "paymentErrorContentType",
+          "visibility": "paymentVisibility"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "screens": {
+    "postpaid_lock": [
+      {
+        "orientation": "portrait",
+        "path": "sdui/processedData/postpaid_lock_portrait.json"
+      },
+      {
+        "orientation": "landscape",
+        "path": "sdui/processedData/postpaid_lock_landscape.json"
+      }
+    ],
+    "postpaid_unlock": [
+      {
+        "orientation": "portrait",
+        "path": "sdui/processedData/postpaid_unlock_portrait.json"
+      },
+      {
+        "orientation": "landscape",
+        "path": "sdui/processedData/postpaid_unlock_landscape.json"
+      }
+    ],
+    "postpaid_notification": [
+      {
+        "orientation": "portrait",
+        "path": "sdui/processedData/postpaid_notification_portrait.json"
+      },
+      {
+        "orientation": "landscape",
+        "path": "sdui/processedData/postpaid_notification_landscape.json"
+      }
+    ],
+    "postpaid_fullscreen": [
+      {
+        "orientation": "portrait",
+        "path": "sdui/processedData/postpaid_fullscreen_portrait.json"
+      },
+      {
+        "orientation": "landscape",
+        "path": "sdui/processedData/postpaid_fullscreen_landscape.json"
+      }
+    ],
+    "prepaid_final_lock": [
+      {
+        "orientation": "portrait",
+        "path": "sdui/processedData/prepaid_final_lock_portrait.json"
+      },
+      {
+        "orientation": "landscape",
+        "path": "sdui/processedData/prepaid_final_lock_landscape.json"
+      }
+    ],
+    "prepaid_main": [
+      {
+        "orientation": "portrait",
+        "path": "sdui/processedData/prepaid_main_portrait.json"
+      },
+      {
+        "orientation": "landscape",
+        "path": "sdui/processedData/prepaid_main_landscape.json"
+      }
+    ],
+    "prepaid_notification": [
+      {
+        "orientation": "portrait",
+        "path": "sdui/processedData/prepaid_notification_portrait.json"
+      },
+      {
+        "orientation": "landscape",
+        "path": "sdui/processedData/prepaid_notification_landscape.json"
+      }
+    ],
+    "prepaid_fullscreen": [
+      {
+        "orientation": "portrait",
+        "path": "sdui/processedData/prepaid_fullscreen_portrait.json"
+      },
+      {
+        "orientation": "landscape",
+        "path": "sdui/processedData/prepaid_fullscreen_landscape.json"
+      }
+    ],
+    "sim_control": [
+      {
+        "orientation": "portrait",
+        "path": "sdui/processedData/sim_control_portrait.json"
+      },
+      {
+        "orientation": "landscape",
+        "path": "sdui/processedData/sim_control_landscape.json"
+      }
+    ],
+    "release": [
+      {
+        "orientation": "portrait",
+        "path": "sdui/processedData/release_portrait.json"
+      },
+      {
+        "orientation": "landscape",
+        "path": "sdui/processedData/release_landscape.json"
+      }
+    ],
+    "subsidy_success_sim_lock": [
+      {
+        "orientation": null,
+        "path": "sdui/processedData/subsidy.json"
+      }
+    ],
+    "subsidy_success_sim_unlock": [
+      {
+        "orientation": null,
+        "path": "sdui/processedData/subsidy.json"
+      }
+    ],
+    "subsidy_failure_sim_lock": [
+      {
+        "orientation": null,
+        "path": "sdui/processedData/subsidy.json"
+      }
+    ],
+    "subsidy_failure_sim_unlock": [
+      {
+        "orientation": null,
+        "path": "sdui/processedData/subsidy.json"
+      }
+    ],
+    "subsidy_unlockable_sim_lock": [
+      {
+        "orientation": null,
+        "path": "sdui/processedData/subsidy.json"
+      }
+    ],
+    "subsidy_unlockable_sim_unlock": [
+      {
+        "orientation": null,
+        "path": "sdui/processedData/subsidy.json"
+      }
+    ]
+  },
+  "localization": {
+    "path": "sdui/data/localization"
+  },
+  "assets": {
+    "path": "sdui/processedData/sduiAssets.json"
+  },
+  "configs": {
+    "path": "sdui/data/configs"
+  }
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "com.trustonic.telecoms.core.storage";
+option java_multiple_files = true;
+
+message DeviceProtectedStoragePreferences {
+
+  // call restriction session
+  bool call_restriction_enabled = 1;
+  bool block_incoming_calls = 2;
+  bool block_outgoing_calls = 3;
+  repeated string whitelist_outgoing_numbers = 4;
+  repeated string whitelist_incoming_numbers = 5;
+
+}

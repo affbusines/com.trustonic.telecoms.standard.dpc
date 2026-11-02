@@ -1,0 +1,143 @@
+syntax = "proto3";
+
+option java_package = "com.trustonic.telecoms.core.storage";
+option java_multiple_files = true;
+
+message AppPreferences {
+    // Authentication
+    optional string token = 1;
+    optional string challenge_seed = 2;
+
+    // Lock type
+    bool policy_locked = 4;
+    bool app_install_locked = 5;
+    bool time_setting_locked = 6;
+
+    // Device type
+    bool is_pre_installed = 7;
+    int32 controller_version = 8;
+    bool should_use_role_apis = 9;
+    bool is_ownership_transferred = 10;
+
+    // UI
+    int32 main_activity_task_id = 11;
+    bool main_activity_running = 12;
+
+    // Policy type
+    bool full_message_locked = 13;
+    bool is_sim_policy_applied = 16;
+
+    bool is_request_policy = 17;
+    optional string branding_strings = 18;
+    optional string companion_app_package_name = 19;
+
+    // Check-in
+    int64 checkin_period = 20;
+    int64 checkin_response_version = 21;
+    optional int64 expiry_time_for_temporary_pin_unlock = 22;
+    int64 response_timestamp = 23;
+
+    optional string imsi = 24;
+    bool get_config_flag = 25;
+    bool set_config_flag = 26;
+
+    // Retry mechanism for time correction
+    bool retry_check_in = 27;
+    bool retry_config_bundle = 28;
+    bool retry_eula = 29;
+    bool retry_app_update = 30;
+    bool retry_email = 31;
+    bool retry_subsidy_unlock = 32;
+
+
+    // Config data
+    optional string config_payload = 33;
+
+    optional string  imei = 34;
+    optional string  serialNumber = 35;
+
+    // Branding Config data
+    optional string branding_config_payload = 36;
+
+    // Relating to device state, keep this for using of resource-provider
+    optional string subsidy_unlock_status = 37;
+
+    // Time provider
+    int64 delta_key_system_elapsed_realtime = 38;
+    int64 delta_utc_elapsed_realtime = 39;
+
+    // Mark enforce default policies
+    bool is_enforced_default_policies = 40;
+
+    // mode of ui, use for single activity
+    optional int32 ui_screen_mode = 41;
+
+    optional string config_e_tag = 42;
+
+    // state if user accepts eula or not
+    optional bool eula_passed = 43;
+
+    // Provisioning activity progress status
+    int32 provisioning_status = 44;
+
+    // url and signature of config api
+    optional string config_url_setting = 45;
+
+    optional string device_model_id = 46;
+    optional string finger_print = 47;
+    int64 user_serial_id = 48;
+
+    int32 device_state = 50;
+    bool last_notification_token_request_success = 51;
+    // device custom properties
+    map<string, string> device_custom_properties = 52;
+    repeated Holiday holidays = 53;
+    repeated Event events = 54;
+
+    optional string policy_action_info = 55;
+
+    // Notification
+    int32 sticky_notification_id = 56;
+    int32 service_provider_message_notification_id = 57;
+    int64 last_telemetry_sync_time = 58;
+
+    optional string app_download_worker_uuid = 59;
+
+    bool check_in_success_after_release = 60;
+
+    bool migration_completed = 61;
+
+    int32 policy_presentation_type_should_show = 62;
+
+    bool enable_production_logging = 63;
+
+    bool bypass_imsi_allowed_after_migration = 64;
+    string latest_policy_id = 65;
+    int64 latest_policy_version = 66;
+
+    string app_update_etag = 67;
+
+    int64 ota_remaining_delay = 68;
+    string app_update_trigger_mode = 69;
+
+    bool new_ui_mode_enabled = 70;
+    int32 non_sim_based_policy_state = 71;
+
+    optional string app_uuid = 72;
+
+    repeated string active_sim_serial_id = 73;
+
+}
+
+message Holiday {
+    int32 day_of_month = 1;
+    int32 month = 2;
+    optional int32 year = 3;
+}
+
+message Event {
+    string code = 1;
+    int64 timestamp = 2;
+    string description = 3;
+    string actor = 4;
+}

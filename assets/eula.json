@@ -1,0 +1,130 @@
+{
+  "content": {
+    "type": "column",
+    "modifier": {
+      "horizontalAlignment": "CENTER_HORIZONTAL",
+      "backgroundColor": "#ffffff"
+    },
+    "children": [
+      {
+        "type": "box",
+        "modifier": {
+          "height": 20
+        }
+      },
+      {
+        "type": "text",
+        "text": "",
+        "style": {
+          "textColor": "#000000",
+          "fontSize": 40,
+          "fontWeight": "bold"
+        },
+        "dynamicBindings": {
+          "text": "eulaTitle"
+        },
+        "modifier": {
+          "horizontalAlignment": "CENTER_HORIZONTAL"
+        }
+      },
+      {
+        "type": "box",
+        "modifier": {
+          "height": 10
+        }
+      },
+      {
+        "type": "text",
+        "text": "",
+        "style": {
+          "textColor": "#000000",
+          "fontSize": 16,
+          "textAlign": "CENTER"
+        },
+        "dynamicBindings": {
+          "text": "eulaContent"
+        },
+        "modifier": {}
+      },
+      {
+        "type": "box",
+        "modifier": {
+          "weight": 1
+        }
+      },
+      {
+        "type": "row",
+        "modifier": {
+          "verticalAlignment": "BOTTOM",
+          "padding": {
+            "bottom": 10,
+            "start": 5,
+            "end": 5
+          }
+        },
+        "children": [
+          {
+            "type": "button",
+            "text": "Reject Placeholder",
+            "style": {
+              "textColor": "#000000",
+              "fontSize": 16
+            },
+            "dynamicBindings": {
+              "text": "secondaryButtonText",
+              "visibility": "secondaryButtonVisible"
+            },
+            "modifier": {
+              "weight": 1,
+              "height": 48,
+              "backgroundColor": "#CDCECF",
+              "rounded": {
+                "topStart": 4,
+                "topEnd": 4,
+                "bottomStart": 4,
+                "bottomEnd": 4
+              }
+            },
+            "action": {
+              "type": "custom",
+              "customAction": "SECONDARY_ACTION"
+            }
+          },
+          {
+            "type": "box",
+            "modifier": {
+              "width": 10
+            }
+          },
+          {
+            "type": "button",
+            "text": "Accept Placeholder",
+            "style": {
+              "textColor": "#000000",
+              "fontSize": 16
+            },
+            "dynamicBindings": {
+              "text": "primaryButtonText",
+              "visibility": "primaryButtonVisible"
+            },
+            "modifier": {
+              "weight": 1,
+              "height": 48,
+              "backgroundColor": "#CDCECF",
+              "rounded": {
+                "topStart": 4,
+                "topEnd": 4,
+                "bottomStart": 4,
+                "bottomEnd": 4
+              }
+            },
+            "action": {
+              "type": "custom",
+              "customAction": "PRIMARY_ACTION"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
